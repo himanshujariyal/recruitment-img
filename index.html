@@ -1,0 +1,248 @@
+<html>
+
+<head>
+	<title>Recruitment</title>
+	<script type="text/javascript" src="./js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="./js/proxim.js"></script>
+	<link rel="stylesheet" type="text/css" href="fonts/font-stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+
+	<!-- <link rel="stylesheet" type="text/css" href="css/normalise.css"> -->
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<!-- 
+	<div id="home">
+        <div id="upup">
+           <a href="http://img.channeli.in" target="_blank"><img id="imgLogo" src="images/logo2.png"></a> 
+           
+        </div>
+        
+		<div id="up">
+			
+		</div>
+		<div id="bottom">
+			 <div  class="row" ><p class="boldText">like what we do?</p></div>
+			 <div class="row"><span class="blue">YES</span> / <span class="orange">NO</span></div>
+		</div>
+	</div>
+ -->
+
+	<form action="#demo" id="form" enctype="application/x-www-form-urlencoded" method="post" class="promin">
+	<div id ="top">
+	                    <p class="progress-bar">
+	                        <span class="bar" style="width: 0%;"></span>
+	                    </p>
+	</div>	
+	<div id ="formDiv">
+		
+                    <div  id="part1" class="pm-step row" style="display: block;">
+                        <div id="upper_half">
+                            <div id="jointhe">
+                                 <a href="http://img.channeli.in" target="_blank"><img id="imgLogo" src="images/logo2.png"></a> 
+                                <p id="jointhep" class="boldText heading">Join the league</p></div>
+                           
+                        </div>
+
+                        <div id="center1">
+                            
+                            <div id="typeOf">
+                                <div><p class="boldText heading">What defines you?</p></div>
+                            	<div class="lightCapital subheading">I love the way things <br><br><br></div>
+                            	<div class="button"><span id="look" class="orange" style="margin-right:10px;">LOOK</span>  <span id="work" class="blue">WORK</span></div>
+                            </div>
+                            <!-- <input type="text" name="name" autocomplete="off"> -->
+                        </div>
+                    </div>
+
+                    <div class="pm-step row" style="display: none;">
+                    	<div id="center2">
+                        	<p class="boldText">Portfolio/Projects.</p>
+                        	<input type="text" style="margin-top:50px;" id="input_link1" class="link_input" name="links" placeholder="" autocomplete="off">
+                        	<!-- <input type="text" class="link_input" name="links" placeholder="" autocomplete="off">
+                        	<input type="text" class="link_input" name="links" placeholder="" autocomplete="off"> -->
+<!--                             <input type="button" id="prev" value="Back"><input type="button" id="nextLink" class="nextButton" value="Next">
+
+ -->                        <div id="addLinks" class="addMore">
+
+                                <i class="fa fa-plus" style="position: absolute;left: 10px;"></i>
+                                <span class="add_more">Add More</span>
+                            </div>
+
+                            <p class="muted">
+                                <input type="button" id="prev" class="prev" value="Back"><input type="button" id="nextLink" class="nextButton nextLink" value="Next">
+                                <div class="help"><i class="fa fa-question"></i></div>
+                                <div class="helpBox">Want to show us what you have in your PC? <br> You can either upload your design's on <a class="helpLinks" style="color:orange;" href="http://www.gomoodboard.com" target="_blank">http://www.gomoodboard.com</a> or code snippets on <a class="helpLinks" style="color:#00A9FF;" href="http://codepen.io" target="_blank">http://codepen.io</a></div>
+
+                            </p>
+                        	<!-- <div id="note2">
+                        	Note: You can add link of your online portfolio or dribble account or any project you have made.
+                        	</div> -->
+                        </div>
+                        
+                    </div>
+
+                    <div class="pm-step row" style="display: none;">
+                        <div id="center3">
+                            <p class="boldText">Tell us about your projects.</p>
+                            <div id="projectDiv1"class="projectDiv">
+                                 <input type="text" style="margin-top:50px;" id="project_link1" class="link_input bold_link" name="links" placeholder="Link" autocomplete="off">
+                                <textarea  maxlength="300" id="project_desc1" class="desc_input" name="links" placeholder="Description" autocomplete="off"></textarea>
+                            </div>
+                            <div id="projectDiv2"class="projectDiv">
+                                 <input type="text" style="margin-top:50px;" id="project_link2" class="link_input bold_link" name="links" placeholder="Link" autocomplete="off">
+                                <textarea  maxlength="300" id="project_desc2" class="desc_input" name="links" placeholder="Description" autocomplete="off"></textarea>
+                            </div>
+                           
+                             
+                            <div id="addProj"  class="addMore">
+
+                                <i class="fa fa-plus" style="position: absolute;left: 10px;"></i>
+                                <span class="add_more">Add More</span>
+                            </div>
+                            <p class="muted">
+                                <input type="button" class="prev" id="prev" value="Back">
+                                <input type="button" id="nextLink" class="nextButton nextLink" value="Next">
+                                <div class="help"><i class="fa fa-question"></i></div>
+                               <div class="helpBox">Want to show us what you have in your PC? <br> You can either upload your design's on <a class="helpLinks" style="color:orange;" href="http://www.gomoodboard.com" target="_blank">http://www.gomoodboard.com</a> or code snippets on <a class="helpLinks" style="color:#00A9FF;" href="http://codepen.io" target="_blank">http://codepen.io</a></div>
+                            </p>
+                            <!-- <div id="note2">
+                            Note: You can add link of your online portfolio or dribble account or any project you have made.
+                            </div> -->
+                        </div>
+                    </div>
+                <!--     <div class="row">
+                    	<p class="muted"><input type="button" id="prev" value="Prev step"><input type="button" id="next" value="Next step"></p>
+                    </div> -->
+                
+
+                     <div  id="part4" class="pm-step row" style="display: block;">
+
+                        <div id="center4">
+                            <div ><p class="boldText heading">Why you want to join IMG?</p></div>
+                            <div id="typeOf">
+                               <textarea  maxlength="1500" id="why_img" placeholder="Start typing" autocomplete="off"></textarea>
+                             
+                            </div>
+
+                            <p class="muted">
+                                <input type="button" class="prev" id="prev" value="Back">
+                                <input type="button" id="nextLink" class="nextButton nextLink" value="Next">
+                                <div class="help"><i class="fa fa-question"></i></div>
+                                <div class="helpBox">Want to show us what you have in your PC? <br> You can either upload your design's on <a class="helpLinks" style="color:orange;" href="http://www.gomoodboard.com" target="_blank">http://www.gomoodboard.com</a> or code snippets on <a class="helpLinks" style="color:#00A9FF;" href="http://codepen.io" target="_blank">http://codepen.io</a></div>
+                            </p>
+                        </div>
+                    </div>
+	</div>
+	</form>
+</body>
+
+<script type="text/javascript">
+	
+
+// Cache the form
+var $form = $('#form');
+
+
+// Stuff for the progress bar
+var $bar = $('.progress-bar .bar');
+var steps = $('.pm-step').length;
+
+// Initialize Promin
+$form.promin({
+    // Want to update the bar on every change
+    events: {
+        change: function(i) {
+            $bar.css('width', (i / steps * 100) + '%');
+        }
+    }
+});
+
+// Tell the button to go to the next step
+$('.nextLink').on('click', function() {
+    $form.promin('next');
+});
+
+$('.prev').on('click', function() {
+    $form.promin('previous');
+});
+
+$('#look').on('click', function() {
+    $('.nextButton').removeClass("next_blue").addClass("next_orange");
+    $form.promin('next');
+});
+
+$('#work').on('click', function() {
+     $('.nextButton').removeClass("next_orange").addClass("next_blue");
+    $form.promin('next');
+});
+
+	//$('#form').promin(options);
+
+
+	// $("#awsmCss").on('mouseover',function(){
+	// 		$(this).css({'width':'137'});
+
+	// });
+
+	// $("#awsmCss").on('mouseleave',function(){
+	// 		$(this).css({'width':'67'});
+
+	// });
+
+
+//add more
+
+var current = 2;
+$("#addLinks").on('click',function(){
+    if(current < 6){
+
+        var html = '<input type="text" id="input_link'+current+'" class="link_input" name="links" placeholder="" autocomplete="off"/>';
+        $('#input_link'+(current-1)).after(html);
+        var newMargin = - 165 - (30 * current);
+        $("#center2").animate({'margin-top':newMargin});
+        current++;
+        if(current==6){
+            $("#addLinks").remove();
+        }
+    }
+});
+
+
+
+var currentTwo = 3;
+$("#addProj").on('click',function(){
+    if(currentTwo < 6){
+
+        var htmlTwo = '<div id="projectDiv'+currentTwo+'" class="projectDiv">'+
+                              '<input type="text" style="margin-top:50px;" id="project_link'+ currentTwo+'" class="link_input bold_link" name="links" placeholder="Link" '+
+                              'autocomplete="off">'+
+                              '<textarea  maxlength="300" id="project_desc'+currentTwo+'" class="desc_input" name="links" placeholder="Description" autocomplete="off">'+
+                              '</textarea></div>';
+        $('#projectDiv'+(currentTwo-1)).after(htmlTwo);
+        // var newMargin = - 165 - (30 * currentTwo);
+        // $("#center2").animate({'margin-top':newMargin});
+        currentTwo++;
+       
+         $('body').animate({scrollTop:1000},500);
+        if(currentTwo==6){
+            $("#addProj").remove();
+        }
+    }
+});
+
+
+$(".help").on('click',function(){
+    $( ".helpBox").toggle();
+});
+
+
+
+</script>
+
+</html>
