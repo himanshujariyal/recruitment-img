@@ -199,8 +199,8 @@ box-shadow: 0px 1px 0px #B1B1B1;
 }
 
 #part1{
-/*
-	background: url(../images/man.png);
+
+/*	background: url(../images/1.jpg);
 	background-size: cover;*/
 }
 
@@ -243,7 +243,7 @@ background: #F5F5F5;
 display: block;
 margin: 0 auto;
 margin-top: 10px;
-font-family: "helvetica_neue_regular","Arial","sans-serif";
+font-family: "helvetica_neue_bold","Arial","sans-serif";
 padding: 0px 15px;
 }
 
@@ -349,27 +349,19 @@ margin-top: 20px;
 }
 
 .addMore{
-	font-family: "helvetica_neue_regular","Arial","sans-serif";
-	width: 80px;
-	left: 50%;
 	position: relative;
-	margin-left: -59px;
-	padding: 3px 11px;
-	color: #929292;
-	border-radius: 2px;
-	cursor: pointer;
-	font-size: 14px;
-	margin-top: 20px;
-	-webkit-transition-property: background-color;
-	-webkit-transition-duration: 0.1s, 0.1s;
-	-webkit-transition-timing-function: ease-in ,linear,ease-out;
-	border: 1px solid #CFCFCF;
-	-moz-transition-property: color, text;
-	-moz-transition-duration: 0.1s;
-	-moz-transition-timing-function: linear, ease-in;
-	-o-transition-property: color, text;
-	-o-transition-duration: 0.1s;
-	-o-transition-timing-function: linear, ease-in;
+color: #929292;
+font-size: 14px;
+margin-top: 20px;
+-webkit-transition-property: background-color;
+-webkit-transition-duration: 0.1s, 0.1s;
+-webkit-transition-timing-function: ease-in ,linear,ease-out;
+-moz-transition-property: color, text;
+-moz-transition-duration: 0.1s;
+-moz-transition-timing-function: linear, ease-in;
+-o-transition-property: color, text;
+-o-transition-duration: 0.1s;
+-o-transition-timing-function: linear, ease-in;
 }
 
 .addMore:hover{
@@ -377,12 +369,34 @@ margin-top: 20px;
 }
 
 .add_more{
-	font-size: 12px;
-top: 0px;
-position: relative;
-left: 4px;
-
+font-size: 12px;
+top: -40px;
+left: 43.5%;
+position: absolute;
+border: 1px solid #A3A2A2;
+padding: 10px 10px 10px 10px;
+border-radius: 23px;
+background: rgb(144, 144, 144);
+color: #FFF;
+/*display: none; */
+font-family: "helvetica_neue_regular","Arial","sans-serif";
 }
+
+.add_more_div{
+	display: none;
+}
+
+.addMore>i{
+	width: 28px;
+height: 28px;
+text-align: center;
+line-height: 28px;
+border: 2px solid #999999;
+border-radius: 102px;
+color: #999999;
+cursor: pointer;
+}
+
 
 .helpBox{
 display: none;
@@ -513,4 +527,20 @@ text-shadow: 0px 1px 0px #1D1D1D;
 	font-size: 60px;
 	color: white;
 	font-family: 'Shadows Into Light', cursive;
+}
+
+.arrowPointer{
+	border-color: transparent;
+border-bottom-color: #000;
+border-style: dashed dashed solid;
+border-width: 0 8.5px 8.5px;
+display: none;
+position: absolute;
+left: 6.5px;
+top: 37px;
+z-index: 1;
+height: 0;
+width: 0;
+-webkit-animation: gb__a .2s;
+animation: gb__a .2s;
 }
