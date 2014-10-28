@@ -231,26 +231,28 @@ font-family: arial;
 }
 
 .link_input{
-	width: 100%;
+width: 100%;
 font-size: 17px;
 height: 50px;
-/*text-align: center;*/
+/* text-align: center; */
 border: 0px;
 margin-top: 12px;
 color: rgb(153, 153, 153);
-outline: 1px solid rgb(226, 226, 226);
+outline: 1px solid rgb(239, 239, 239);
 background: #F5F5F5;
 display: block;
 margin: 0 auto;
 margin-top: 10px;
 font-family: "helvetica_neue_bold","Arial","sans-serif";
 padding: 0px 15px;
+-webkit-box-shadow: 0 1px 1px rgba(204,197,185,0.5);
 }
 
 
  textarea:focus, input[type=text]:focus{
  	border-left: 2px solid rgb(153, 153, 153);
 	border-right: 2px solid rgb(153, 153, 153);
+	outline:0px;
  }
 
  textarea:focus{
@@ -441,13 +443,14 @@ text-align: left;
 border: 0px;
 margin-top: 12px;
 color: rgb(153, 153, 153);
-outline: 1px solid rgb(226, 226, 226);
+outline: 1px solid rgb(239, 239, 239);
 background: #F5F5F5;
 display: block;
 margin: 0 auto;
 margin-top: 10px;
 font-family: "helvetica_neue_regular","Arial","sans-serif";
 padding: 15px;
+-webkit-box-shadow: 0 1px 1px rgba(204,197,185,0.5);
 }
 
 textarea {
